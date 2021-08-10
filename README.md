@@ -7,3 +7,5 @@
 
 Aula 03 - Entendendo a estrutura básica de um App React -  vamos aprender sobre a estrutura básica de um App React e o código básico (esqueleto) de um componente em React.
 
+Aula 04 - Expressões em JSX. Inserção de imagens nos App. Constantes e Variáveis - vamos aprender sobre: Expressões em JSX, como inserir o Javascript no JSX. Inserção de imagens no App React, como inserir imagens que estão na pasta public e na pasta src. Constantes e Variáveis em React, como trabalhar com constantes e variáveis simples nos Apps React.
+
