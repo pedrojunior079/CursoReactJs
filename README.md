@@ -11,3 +11,11 @@ Aula 04 - Expressões em JSX. Inserção de imagens nos App. Constantes e Variá
 
 Aula 05 - como criar componentes em React -  vamos aprender como criar nossos próprios componentes.
 
+Aula 06 - Enviar propriedades para os componentes com PROPS - vamos aprender como enviar propriedades e funções para os componentes com PROPS.
+
+Aula 07 - Enviar funções para os componentes - vamos aprender como enviar funções para os componentes.
+
+Aula 08 - Usando CSS em React, formas de usar CSS em React -  vamos aprender as várias formas de como usar CSS em páginas React.
+
+Aula 09 - Como funciona a renderização de componentes em React - vamos aprender mais sobre como funciona a renderização de componentes.
+
