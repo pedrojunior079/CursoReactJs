@@ -19,3 +19,45 @@ Aula 08 - Usando CSS em React, formas de usar CSS em React -  vamos aprender as 
 
 Aula 09 - Como funciona a renderização de componentes em React - vamos aprender mais sobre como funciona a renderização de componentes.
 
+Aula 10 - O que é State e como usar State em React - vamos aprender o que é State e como usar State em React. Vamos aprender o primeiro hook no curso de React.
+
+Aula 11 - Eventos em React - vamos aprender como trabalhar com eventos, além de passar funções para eventos de componentes.
+
+Aula 12 - Como usar o recurso de Rederinzalçao condicional em React - vamos aprender como usar o recurso de Renderização condicional. Com este recurso podemos indicar se um componentes será mostrado/renderizado ou não, além de outras possibilidades.
+
+import React,{useState} from 'react'
+import './App.css'
+
+export default function App(){
+
+   const [log,setLog]=useState(false)
+
+   const msglogin=()=>{
+      return "Usuário Logado"
+   }
+
+   const msglogoff=()=>{
+      return "Favor Logar"
+   }
+  
+   const cumprimento=()=>{
+      const hora=new Date().getHours()
+      if(hora >=0 && hora < 13){
+         return <p>Bom dia</p>
+      }else if(hora >= 13 && hora < 18){
+         return <p>Boa tarde</p>
+      }else{
+         return <p>Boa noite</p>
+      }
+   }
+
+   return(
+     <>
+         {cumprimento()}
+         <p>{log?msglogin():msglogoff()}</p>
+         <button onClick={()=>setLog(!log)}>{log?"Logoff":"Login"}</button>   
+     </>
+  );
+}
+
+
