@@ -60,4 +60,26 @@ export default function App(){
   );
 }
 
+Aula 13 - Trabalhando com LISTA em React usando a função MAP - vamos aprender como trabalhar com listas usando a função MAP de Javascript.Com este recurso podemos indicar se um componentes será mostrado/renderizado ou não, além de outras possibilidades.
+
+import React from 'react'
+import './App.css'
+
+export default function App(){
+
+   const carros=["HRV","Golf","Focus","Cruze","Argo"]
+   const listaCarros=carros.map(
+      (c,i)=>
+         <li key={i}>{i} - {c}</li>
+      
+   ) 
+   
+   
+   return(
+     <>
+       <ul>{listaCarros}</ul>    
+     </>
+  );
+}
+
 
