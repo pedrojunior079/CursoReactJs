@@ -3,23 +3,23 @@ import './App.css'
 
 export default function App(){
 
-   const carros=[
-      {categoria: "Esporte", preco: "110000.00", modelo: "Golf GTI"},
-      {categoria: "Esporte", preco: "120000.00", modelo: "Camaro"},
-      {categoria: "SUV", preco: "85000.00", modelo: "HRV"},
-      {categoria: "SUV", preco: "83000.00", modelo: "T-Cross"},
-      {categoria: "Utilitario", preco: "120000.00", modelo: "Hillux"},
-      {categoria: "Utilitario", preco: "90000.00", modelo: "Ranger"}
+   const tech=[
+      {categoria: "Framework", linguagemProg: "NodeJs"},
+      {categoria: "Framework", linguagemProg: "VueJs"},
+      {categoria: "Framework", linguagemProg: "ReactJs"},
+      {categoria: "Linguagem de Programação", linguagemProg: "C++"},
+      {categoria: "Linguagem de Programação", linguagemProg: "Java"},
+      {categoria: "Linguagem de Programação", linguagemProg: "Python"}
    ];
-   const listaCarros=carros.map(
-      (c,i)=>
-         <li key={i}>{i} - {c.categoria} - R$ {c.preco} - {c.modelo}</li>
+   const listaTech=tech.map(
+      (tech,i)=>
+         <li key={i}>{i} - {tech.categoria} - {tech.linguagemProg}</li>
       
    ) 
       
    return(
      <>
-       <ul>{listaCarros}</ul>    
+       <ul>{listaTech}</ul>    
      </>
   );
 }
