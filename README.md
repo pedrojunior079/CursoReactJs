@@ -23,7 +23,7 @@ Aula 10 - O que é State e como usar State em React - vamos aprender o que é St
 
 Aula 11 - Eventos em React - vamos aprender como trabalhar com eventos, além de passar funções para eventos de componentes.
 
-Aula 12 - Como usar o recurso de Rederinzalçao condicional em React - vamos aprender como usar o recurso de Renderização condicional. Com este recurso podemos indicar se um componentes será mostrado/renderizado ou não, além de outras possibilidades.
+Aula 12 - Como usar o recurso de Renderizaçao condicional em React - vamos aprender como usar o recurso de Renderização condicional. Com este recurso podemos indicar se um componentes será mostrado/renderizado ou não, além de outras possibilidades.
 
 import React,{useState} from 'react'
 import './App.css'
