@@ -136,3 +136,38 @@ export default function App(){
   );
 }
 
+Aula 15 - Manipulando objetos com State. Somente um state para vários componentes - vamos falar mais sobre uso de state e componentes de formulário. Vamos usar um objeto no state para manipular vários elementos de formulário somente com um state. Com este recurso podemos indicar se um componentes será mostrado/renderizado ou não, além de outras possibilidades.
+
+Aula 16 - Elevação de STATE -  vamos aprender sobre elevação de state, um recurso muito importante em React, onde passamos um state de um componente pai até chegar no componentefilho que irá usar o state. Com este recurso podemos indicar se um componentes será mostrado/renderizado ou não, além de outras possibilidades.
+
+import React,{useState} from 'react'
+import './App.css'
+import Nota from './componentes/Nota'
+import Resultado from './componentes/Resultado'
+
+export default function App(){
+   const [nota1,setNota1]=useState(0)
+   const [nota2,setNota2]=useState(0)
+   const [nota3,setNota3]=useState(0)
+   const [nota4,setNota4]=useState(0) 
+               
+   return(
+     <>
+       <Nota num={1} nota={nota1} setNota={setNota1}/>
+       <Nota num={2} nota={nota2} setNota={setNota2}/>
+       <Nota num={3} nota={nota3} setNota={setNota3}/>
+       <Nota num={4} nota={nota4} setNota={setNota4}/>
+       <Resultado somaNotas={parseFloat(nota1)+parseFloat(nota2)+parseFloat(nota3)+parseFloat(nota4)}/>
+     </>
+  );
+}
+
+Aula 17 - Solução do desafio da aula 16 sobre elevação de state e state com objetos - vamos resolver o desafio da aula 16 sobre elevação de state e state com objetos.
+
+Aula 18 - Aprendendo sobre CONTENÇÃO em React - vamos aprender sobre contenção em React, que é caputrar elementos que estão dentro de outros elementos.
+
+
+
+
+
+
