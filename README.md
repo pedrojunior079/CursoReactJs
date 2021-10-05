@@ -1,5 +1,6 @@
 # CursoReactJs
- Curso React.js onde estou aprendendo a mexer neste framework jacascript
+ Curso React.js onde estou aprendendo a mexer neste framework javascript atraves do canal no 
+ youtube CFBCursos
 
  Aula 02 foi instalação do mode.js e do ambiente de desenvolvimento no PC.
  O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. É mantido pelo Facebook, Instagram, outras empresas e uma comunidade de desenvolvedores individuais.
@@ -166,8 +167,8 @@ Aula 17 - Solução do desafio da aula 16 sobre elevação de state e state com 
 
 Aula 18 - Aprendendo sobre CONTENÇÃO em React - vamos aprender sobre contenção em React, que é capturar elementos que estão dentro de outros elementos.
 
+Aula 19 - Aprendendo sobre o Hook UseEffect - vamos aprender o segundo hook aqui do nosso curso de React que é o Hook UseEffect.
 
-
-
+Aula 20 - LocalStorage em React - vamos aprender como manipular localStorage em react, vamoa aprender como criar uma chave com um valor, alterar o valor de uma chave, consultar o valor da chave e a remover uma chave existente.
 
 
