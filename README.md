@@ -172,3 +172,30 @@ Aula 19 - Aprendendo sobre o Hook UseEffect - vamos aprender o segundo hook aqui
 Aula 20 - LocalStorage em React - vamos aprender como manipular localStorage em react, vamoa aprender como criar uma chave com um valor, alterar o valor de uma chave, consultar o valor da chave e a remover uma chave existente.
 
 
+Aula 21 - Criando Componentes de Classe em react - vamos aprender sobre criação de componentes de classe, até então só trabalhamos como componentes funcionais, e hoje vamos entender sobre componentes de classe.
+
+import React from 'react'
+import Classe from './Componentes/Classe';
+
+
+export default function App(){
+                 
+   return(
+     <>
+       <h1>Componentes de Classe</h1>
+       <Classe canal="CFB Cursos" curso="Curso de ReactJs"/>
+     </>
+  );
+}
+
+Aula 22 - STATE em Componentes de Classe ReactJS - vamos continuar falando sobre componentes de classe, vamos aprender como usar STATE em componentes de classe.
+
+
+
+
+
+
+
+
+
+

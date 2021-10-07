@@ -1,11 +1,13 @@
 import React from 'react'
-import AppLocalStorage from './Componentes/AppLocalStorage'
+import Carro from './Componentes/Carro';
+
 
 export default function App(){
                  
    return(
      <>
-       <AppLocalStorage/>
+       <h1>Componentes de Classe</h1>
+       <Carro/>
      </>
   );
 }
