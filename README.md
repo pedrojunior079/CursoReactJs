@@ -190,6 +190,73 @@ export default function App(){
 
 Aula 22 - STATE em Componentes de Classe ReactJS - vamos continuar falando sobre componentes de classe, vamos aprender como usar STATE em componentes de classe.
 
+Aula 23 - Manipulando STATE em Componentes de Classe ReactJs - vamso continuar falando sobre componetes de classe, vamos aprender nais sobre comno usar STATE em componentes de classe.
+
+codigo aula 23: app.js 
+import React from 'react'
+import Carro from './Componentes/Carro';
+
+
+export default function App(){
+                 
+   return(
+     <>
+       <h1>Componentes de Classe</h1>
+       <Carro fator={1}/>
+     </>
+  );
+}
+
+
+Carro.js: 
+import React from "react";
+
+//Aula 22 - STATE em Componentes de Classe ReactJS
+
+export default class Carro extends React.Component{
+    constructor(props){
+        super(props)
+        this.modelo='Golf'
+        this.state={
+            ligado:false,
+            velAtual:0,
+        }
+    }
+    ligarDesligar(){
+        //this.setState({ligado:!this.state.ligado})
+        this.setState(
+            (state)=>(
+                {ligado:!state.ligado}
+            )
+        )
+    }
+    acelerar(){
+        this.setState(
+            (state,props)=>(
+                {velAtual:this.state.velAtual + this.props.fator}
+            )
+        )
+    }
+    render(){ 
+        return(
+          <>
+            <div>
+               <h1>Meu Carro</h1>
+               <p>Modelo: {this.modelo}</p>
+               <p>Ligado: {this.state.ligado ? 'Sim' : 'Não'}</p>
+               <p>Vel.Atual: {this.state.velAtual}</p>
+               <button onClick={()=>this.ligarDesligar()}>
+                    {this.state.ligado ? 'Desligar carro' : 'Ligar carro'}
+               </button>
+               <button onClick={()=>this.acelerar()}>
+                    Acelerar
+               </button>
+            </div>
+          </>  
+        );
+    }
+}
+
 
 
 
