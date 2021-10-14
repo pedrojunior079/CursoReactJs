@@ -257,7 +257,7 @@ export default class Carro extends React.Component{
     }
 }
 
-
+Aula 24 - BIND. Como usar o método BIND em React - vamos aprender sobre o método BIND que é uma ligação, uma forma de ligar funções às variáveis e simplificar a chamada.
 
 
 
