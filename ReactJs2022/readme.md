@@ -16,3 +16,14 @@ Aula 06 - Inserindo CSS no React - Para isso vamos utilizar um recurso bem inter
 
 Aula 07 - Usando React fragments - vamos aprender um recurso muito interessante do React, os fragments!
 Que servem para retornar vários elementos no JSX sem um elemento pai, simplificando o HTML retornando por cada componente.
+
+Aula 08 - Avançando em props - vamos ver como utilizar props de outras maneiras, aprendendo mais ainda sobre este recurso fundamental do React.
+
+Aula 09 - Eventos no React(onClick onChange onSubmit) - vamos começar a trabalhar com eventos em React, outro recursos importantíssimo, com eles podemos realizar determinadas ações no software, sendo baseadas em um evento feito pelo usuário;
+
+
+
+
+
+
+
