@@ -3,9 +3,9 @@ Começando Curso de ReactJs do Canal Hora de Codar no Youtube
 Aula 02 - instalando o React usando o comando:
 npx create-react-app my-app
 
-atualizar o npm: sudo npm install -g npm@8.x.x
-                 sudo npm source-map-url@0.4.1
-                 sudo npm install -g svgo@2.8.0
+atualizar o npm: <p>sudo npm install -g npm@8.x.x</p>
+                 <p>sudo npm source-map-url@0.4.1</p>
+                 <p>sudo npm install -g svgo@2.8.0</p>
 
 Aula 03 -  Entendendo o JSX - vamos conhecer um recurso muito utilizado no React o JSX
 que é a forma que escrevemos HTML no React, podendo deixar ele dinâmico, imprimindo valores de propriedades ou variáveis e também executando lógicas simples.
