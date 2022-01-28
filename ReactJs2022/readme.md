@@ -24,6 +24,10 @@ Aula 09 - Eventos no React(onClick onChange onSubmit) - vamos começar a trabalh
 Aula 10 - useState na pratica - você vai aprender um dos hooks mais importantes do React, o useState
 Vamos utilizá-lo para manipular o estado de um dado e conseguir realizar operações como eventos para definir o state, e depois resgatar o state.
 
+Aula 11 - Passar eventos por props - vamos aprender um pouco mais sobre props do React, o objetivo sera passar eventos que foram definidos no compnente pai dando mais versatilidade a aplicação.
+
+
+
 
 
 
