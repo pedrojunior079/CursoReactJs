@@ -26,7 +26,7 @@ Vamos utilizá-lo para manipular o estado de um dado e conseguir realizar opera�
 
 Aula 11 - Passar eventos por props - vamos aprender um pouco mais sobre props do React, o objetivo sera passar eventos que foram definidos no compnente pai dando mais versatilidade a aplicação.
 
-
+Aula 12 -  Redenrização condicional (if) - como podemos exibir JSX diferente baseado em uma condição, ou seja, um if, utilziaremos uma tecnica chamada de renderização condicional no React, que deixa o codigo limpo e permite exibir dados de forma dinamica, baseados em uma condição.
 
 
 
