@@ -3,7 +3,9 @@ Começando Curso de ReactJs do Canal Hora de Codar no Youtube
 Aula 02 - instalando o React usando o comando:
 npx create-react-app my-app
 
-atualizar o npm: sudo npm install -g npm
+atualizar o npm: <p>sudo npm install -g npm@8.x.x</p>
+                 <p>sudo npm source-map-url@0.4.1</p>
+                 <p>sudo npm install -g svgo@2.8.0</p>
 
 Aula 03 -  Entendendo o JSX - vamos conhecer um recurso muito utilizado no React o JSX
 que é a forma que escrevemos HTML no React, podendo deixar ele dinâmico, imprimindo valores de propriedades ou variáveis e também executando lógicas simples.
@@ -21,12 +23,7 @@ Aula 08 - Avançando em props - vamos ver como utilizar props de outras maneiras
 
 Aula 09 - Eventos no React(onClick onChange onSubmit) - vamos começar a trabalhar com eventos em React, outro recursos importantíssimo, com eles podemos realizar determinadas ações no software, sendo baseadas em um evento feito pelo usuário.
 
-Aula 10 - useState na pratica - você vai aprender um dos hooks mais importantes do React, o useState
-Vamos utilizá-lo para manipular o estado de um dado e conseguir realizar operações como eventos para definir o state, e depois resgatar o state.
 
-Aula 11 - Passar eventos por props - vamos aprender um pouco mais sobre props do React, o objetivo sera passar eventos que foram definidos no compnente pai dando mais versatilidade a aplicação.
-
-Aula 12 -  Redenrização condicional (if) - como podemos exibir JSX diferente baseado em uma condição, ou seja, um if, utilziaremos uma tecnica chamada de renderização condicional no React, que deixa o codigo limpo e permite exibir dados de forma dinamica, baseados em uma condição.
 
 
 
