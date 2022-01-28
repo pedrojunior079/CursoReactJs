@@ -19,7 +19,10 @@ Que servem para retornar vários elementos no JSX sem um elemento pai, simplific
 
 Aula 08 - Avançando em props - vamos ver como utilizar props de outras maneiras, aprendendo mais ainda sobre este recurso fundamental do React.
 
-Aula 09 - Eventos no React(onClick onChange onSubmit) - vamos começar a trabalhar com eventos em React, outro recursos importantíssimo, com eles podemos realizar determinadas ações no software, sendo baseadas em um evento feito pelo usuário;
+Aula 09 - Eventos no React(onClick onChange onSubmit) - vamos começar a trabalhar com eventos em React, outro recursos importantíssimo, com eles podemos realizar determinadas ações no software, sendo baseadas em um evento feito pelo usuário.
+
+Aula 10 - useState na pratica - você vai aprender um dos hooks mais importantes do React, o useState
+Vamos utilizá-lo para manipular o estado de um dado e conseguir realizar operações como eventos para definir o state, e depois resgatar o state.
 
 
 
