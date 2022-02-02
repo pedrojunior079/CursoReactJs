@@ -8,7 +8,8 @@ function Condicional(){
 
    function enviarEmail(e){
      e.preventDefault()
-     setUserEmail()
+     setUserEmail(email)
+     console.log(email)
    }
 
    return(
