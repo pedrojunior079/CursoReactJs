@@ -23,6 +23,8 @@ Aula 08 - Avançando em props - vamos ver como utilizar props de outras maneiras
 
 Aula 09 - Eventos no React(onClick onChange onSubmit) - vamos começar a trabalhar com eventos em React, outro recursos importantíssimo, com eles podemos realizar determinadas ações no software, sendo baseadas em um evento feito pelo usuário.
 
+Aula 12 - Renderização condicional (if) - é mostrar como podemos exibir JSX diferente baseado em uma condição, ou seja, um if, utilizaremos uma técnica chamada de renderização condicional no #React, que deixa nosso código limpo e permite exibir dados de forma dinâmica, baseados em uma condição.
+
 
 
 
