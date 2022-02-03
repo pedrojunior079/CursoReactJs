@@ -25,6 +25,8 @@ Aula 09 - Eventos no React(onClick onChange onSubmit) - vamos começar a trabalh
 
 Aula 12 - Renderização condicional (if) - é mostrar como podemos exibir JSX diferente baseado em uma condição, ou seja, um if, utilizaremos uma técnica chamada de renderização condicional no #React, que deixa nosso código limpo e permite exibir dados de forma dinâmica, baseados em uma condição.
 
+Aula 13 - Renderização de listas - vamos aprender a imprimir listas no JSX do React podendo iterar tanto por arrays como também por array de objetos, para que seja possível exibir uma série de itens semelhantes que só são alterados os seus dados, podemos reutilizar o mesmo componente.
+
 
 
 
