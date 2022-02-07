@@ -27,7 +27,11 @@ Aula 12 - Renderização condicional (if) - é mostrar como podemos exibir JSX d
 
 Aula 13 - Renderização de listas - vamos aprender a imprimir listas no JSX do React podendo iterar tanto por arrays como também por array de objetos, para que seja possível exibir uma série de itens semelhantes que só são alterados os seus dados, podemos reutilizar o mesmo componente.
 
+Aula 14 - State Lift -  você aprenderá sobre o recurso de State Lift do React que é basicamente a forma que temos de deixar um state em um componente pai e compartilhar este dado entre dois ou mais componentes filhos.
+Sendo que um pode só ler o dado, e o outro pode alterar o state, fazendo com que as mudanças sejam replicadas instantaneamente.
 
+Aula 15 - Implementando o React Router - vamos implementar o React Router no nosso projeto de React
+este recurso permite a troca de páginas da maneira correta para SPA's, ou seja, sem page reload, apenas alterando os componentes que precisam mudar.
 
 
 
