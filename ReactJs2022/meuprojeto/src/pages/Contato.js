@@ -1,4 +1,4 @@
-function contato(){
+function Contato(){
     return (
     
         <div>

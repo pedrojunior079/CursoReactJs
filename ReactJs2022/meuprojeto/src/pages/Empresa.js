@@ -9,4 +9,4 @@ function Empresa(){
     )
 }
 
-export default Emrpesa
+export default Empresa

@@ -33,6 +33,10 @@ Sendo que um pode só ler o dado, e o outro pode alterar o state, fazendo com qu
 Aula 15 - Implementando o React Router - vamos implementar o React Router no nosso projeto de React
 este recurso permite a troca de páginas da maneira correta para SPA's, ou seja, sem page reload, apenas alterando os componentes que precisam mudar.
 
+https://www.devmedia.com.br/react-js-criando-rotas-com-react-router-dom/42901
+
+
+
 
 
 

@@ -187,6 +187,95 @@ function App() {
 export default App;
 
 
+----------Aula 15-----------
+----------App.js------------
+import {BrowserRouter as Router, Switch, Route, Routes, Link, BrowserRouter, NavLink, Navigate} from 'react-router-dom'
+import Home from './pages/Home';
+import Empresa from './pages/Empresa';
+import Contato from './pages/Contato';
+
+
+function App() {
+ 
+  return (
+    
+    <Router>
+      
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/empresa">Empresa</Link>
+        </li>
+        <li>
+          <Link to="/contato">Contato</Link>
+        </li>
+      </ul>
+      <Routes>
+      <Route path="/" element={<App/>}>
+
+      </Route>
+          <Route path="/" element={<Home/>}>
+          </Route>
+          <Route path="/empresa" element={<Empresa/>}>
+          </Route>
+          <Route path="/contato" element={<Contato/>}>
+          </Route>
+      </Routes>
+    </Router>
+    
+  );
+}
+
+export default App;
+
+
+
+-------------Home.js--------------
+function Home(){
+    return (
+    
+        <div>
+            <h1>Home</h1>
+            <p>Conteudo da pagina</p>
+        </div>
+
+    )
+}
+
+export default Home
+
+
+-------Empresa--------------
+function Empresa(){
+    return (
+    
+        <div>
+            <h1>Empresa</h1>
+            <p>Conteudo da pagina</p>
+        </div>
+
+    )
+}
+
+export default Empresa
+
+
+---------------Contato.js------------
+function contato(){
+    return (
+    
+        <div>
+            <h1>Contato</h1>
+            <p>Conteudo da pagina</p>
+        </div>
+
+    )
+}
+
+export default Contato
+
 
 
 
