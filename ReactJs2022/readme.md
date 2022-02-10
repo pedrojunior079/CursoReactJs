@@ -35,6 +35,9 @@ este recurso permite a troca de páginas da maneira correta para SPA's, ou seja,
 
 https://www.devmedia.com.br/react-js-criando-rotas-com-react-router-dom/42901
 
+Aula 16 - React Icons - vamos instalar o módulo React Icons em nosso projeto de React, este pacote nos permite utilizar diversos ícones de diversas bibliotecas no projeto que o instalarmos.
+
+npm install react-icons
 
 
 
