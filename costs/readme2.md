@@ -49,7 +49,7 @@ Aula 18 - Estruturando o projeto - estruturaremos o nosso projeto de React
 
 O início deve ter bases sólidas, para que não seja preciso voltar e modificar detalhes que poderiam ser configurados quando o projeto é criado, este vídeo se dedica justamente a isso: criar um bom alicerce no nosso projeto!
 
-
+Aula 19 - Navbar e Footer - vamos criar duas partes muito importantes da aplicação em React, primeitramente criaremos a navbar, que é onde exibe os links da aplicação e depois criaremos o footer que exibe as redes sociais e o nome do sistema.
 
 
 
