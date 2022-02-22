@@ -52,6 +52,14 @@ O início deve ter bases sólidas, para que não seja preciso voltar e modificar
 Aula 19 - Navbar e Footer - vamos criar duas partes muito importantes da aplicação em React, primeitramente criaremos a navbar, que é onde exibe os links da aplicação e depois criaremos o footer que exibe as redes sociais e o nome do sistema.
 
 
+Aula 20 - Criando a Home
+
+Aula 21 - Pagina para o formulario de projeto - vamos estruturar uma página importante do projeto em React que é 
+a do form para o cadastro de projetos no sistema, uma entidade fundamental para a regra de negocios do Costs.
+
+Aula 22 - Componentização de formulário - veremos como componentizar um formulario em React, esta é uma 
+técnica muito importante, pois permite a reutilização de compomnentes entre paginas.
+
 
 
 
