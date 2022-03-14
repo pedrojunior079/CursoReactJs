@@ -60,6 +60,11 @@ a do form para o cadastro de projetos no sistema, uma entidade fundamental para 
 Aula 22 - Componentização de formulário - veremos como componentizar um formulario em React, esta é uma 
 técnica muito importante, pois permite a reutilização de compomnentes entre paginas.
 
+Aula 23 - Conectando API pelo React -  iremos conectar nosso projeto em React com a API, 
+isso vai servir para fazer as manipulações de dados persistirem no banco, realizaremos em algumas aulas um CRUD completo.
+
+$npm run backend
+
 
 
 
