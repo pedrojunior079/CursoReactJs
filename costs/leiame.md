@@ -41,3 +41,9 @@ function AppIndex(){
 
 export default AppIndex;
 
+Aula 19 - Footer e Navbar: a navbar é onde vamos exibir os principais links da aplicação
+e o footer exibirá as redes sociais e o nome do sistema.
+
+Aula 20 - Criando a home - crianção dos componentes visuais como o banner principal
+
+
