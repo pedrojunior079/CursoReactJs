@@ -48,3 +48,9 @@ Aula 20 - Criando a home - crianção dos componentes visuais como o banner prin
 
 Aula 21 - criado a classe Form e ProjectForm
 
+Aula 22 - Componentização de formularios - tecnica que permite a reutilização de componentes entre paginas
+
+Aula 23 - Conectando com API pelo React - iremos conectar nosso projeto React com a API, isso vai servir 
+para fazer as manipulações de dados persistirem no banco.
+
+npm run backend
