@@ -9,7 +9,7 @@ function ProjectForm({btnText}){
     const [categories, setCategories] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:500/categories',{
+        fetch('http://localhost:5000/categories',{
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
